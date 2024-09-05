@@ -1,19 +1,34 @@
 [
   {
     "id": 1,
-    "name": "Youtube Comment Bot",
+    "name": "Business Analysis",
     "image": "https://imgur.com/bFXeKlG.png",
-    "description": "A bot that post the first comment on every new video of specified channels.",
-    "tags": ["Youtube", "Gmail", "Dropbox", "MySQL", "AWS", "RDS", "CircleCI", "Heroku"],
-    "source_code": "https://github.com/drkostas/Youtube-FirstCommentBot",
-    "demo": "https://www.youtube.com/channel/UC_nnPV1zXEqIP42HOiVdg1A"
+    "description": "Analysing orders dataset from a business comprising of over 3000 data points spaning from 2011 to 2016.",
+    "tags": ["Power BI","BI" , "DA", "Dashboard"],
+    "source_code": "https://amirmohammadikarbalaei.github.io/DataScience.github.io/Business%20analysis.html"
   },
   {
     "id": 2,
-    "name": "Job Application Bot",
+    "name": "Business Data Analytics",
     "image": "https://imgur.com/BX6C6ke.png",
-    "description": "A bot that automatically sends emails to new ads posted in any desired xe.gr search url.",
-    "tags": ["Gmail", "Dropbox", "MySQL", "AWS", "RDS", "CircleCI", "Heroku", "Crawler", "Scraper"],
-    "source_code": "https://github.com/drkostas/JobApplicationBot"
+    "description": "Examining customer data from a Brazilian e-commerce store, to uncover valuable insights.",
+    "tags": ["BI", "Dashboard","DA","Power BI"],
+    "source_code": "https://amirmohammadikarbalaei.github.io/DataScience.github.io/Power%20BI.html"
+  },
+  {
+    "id": 3,
+    "name": "Global Unemployment",
+    "image": "https://imgur.com/BX6C6ke.png",
+    "description": "Analysing Unemployment Trends Across Age Groups and Genders (2014-2024).",
+    "tags": ["DA","Visualisation"],
+    "source_code": "https://github.com/AmirMohammadiKarbalaei/Global_Unemployment"
+  },
+  {
+    "id": 4,
+    "name": "Top Sellers",
+    "image": "https://imgur.com/BX6C6ke.png",
+    "description": "Analysis of Amazon's Top 50 bestselling books from 2009 to 2019.",
+    "tags": ["DA","Visualisation"],
+    "source_code": "https://github.com/AmirMohammadiKarbalaei/Top50-Books"
   }
 ]

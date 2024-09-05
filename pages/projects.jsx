@@ -18,7 +18,7 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
         ))}
       </div>
       <br/>
-      <center><h4>Bots</h4></center>
+      <center><h4>Data Analysis</h4></center>
       <hr/>
       <div className={styles.container}>
         {bots_projects.map((project) => (

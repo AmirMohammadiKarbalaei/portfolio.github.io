@@ -3,45 +3,35 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'Email',
-    link: 'georgiou.kostas94@gmail.com',
-    href: 'mailto:georgiou.kostas94@gmail.com',
+    link: 'a.mohammadikarbalaei@gmail.com',
+    href: 'mailto:a.mohammadikarbalaei@gmail.com',
   },
   {
     social: 'LinkedIn',
-    link: 'linkedin.com/in/gkos',
-    href: 'https://www.linkedin.com/in/gkos/',
+    link: 'linkedin.com/in/amir-mohammadikarbalaei',
+    href: 'https://www.linkedin.com/in/amir-mohammadikarbalaei-65b958193/',
   },
   {
     social: 'GitHub',
-    link: 'github.com/drkostas',
-    href: 'https://github.com/drkostas',
-  },
-  {
-    social: 'Google Scholar',
-    link: 'scholar.google.com/<gkos>',
-    href: 'https://scholar.google.com/citations?user=b___QQ8AAAAJ&hl=en&authuser=1&oi=sra',
+    link: 'github.com/AmirMohammadiKarbalaei',
+    href: 'https://github.com/AmirMohammadiKarbalaei',
   },
   {
     social: 'PyPi',
-    link: 'pypi.org/user/drkostas',
-    href: 'https://pypi.org/user/drkostas/',
+    link: 'pypi.org/user/Amir_Mohammadikarbalaei',
+    href: 'https://pypi.org/user/Amir_Mohammadikarbalaei/',
   },
   {
-    social: 'Website',
-    link: 'gkos.dev',
-    href: 'https://gkos.dev',
+    social: 'Portfolio',
+    link: 'DataScience.github.io',
+    href: 'https://amirmohammadikarbalaei.github.io/DataScience.github.io/',
   },
 ];
 
 const ContactCode = () => {
   return (
     <div className={styles.code}>
-       <p className={styles.line}>
-       tag: <a>production</a>
-        </p>
-      <p className={styles.line}>
-        <span>kostas</span>&#58;
-      </p>
+       
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;&#8212; <span>socials</span>&#58;
       </p>

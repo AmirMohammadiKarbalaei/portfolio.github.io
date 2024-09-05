@@ -24,7 +24,7 @@ const sidebarTopItems = [
   },
   {
     Icon: PencilIcon,
-    path: '/papers',
+    path: '/resume',
   },
   {
     Icon: MailIcon,
