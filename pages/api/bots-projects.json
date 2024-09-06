@@ -2,23 +2,23 @@
   {
     "id": 1,
     "name": "Business Analysis",
-    "image": "https://imgur.com/bFXeKlG.png",
+    "image": "https://businesschange.academy/wp-content/uploads/2017/08/Business-Analysis-Techniques-Cover.jpg",
     "description": "Analysing orders dataset from a business comprising of over 3000 data points spaning from 2011 to 2016.",
-    "tags": ["Power BI","BI" , "DA", "Dashboard"],
+    "tags": ["Power-BI" , "DA", "Dashboard"],
     "source_code": "https://amirmohammadikarbalaei.github.io/DataScience.github.io/Business%20analysis.html"
   },
   {
     "id": 2,
     "name": "Business Data Analytics",
-    "image": "https://imgur.com/BX6C6ke.png",
+    "image": "https://miro.medium.com/v2/resize:fit:640/format:webp/1*1IcT4J7Km9z8gxymd2S3Ag.png",
     "description": "Examining customer data from a Brazilian e-commerce store, to uncover valuable insights.",
-    "tags": ["BI", "Dashboard","DA","Power BI"],
+    "tags": [ "Dashboard","DA","Power-BI"],
     "source_code": "https://amirmohammadikarbalaei.github.io/DataScience.github.io/Power%20BI.html"
   },
   {
     "id": 3,
     "name": "Global Unemployment",
-    "image": "https://imgur.com/BX6C6ke.png",
+    "image": "https://cdn.corporatefinanceinstitute.com/assets/unemployment.jpeg",
     "description": "Analysing Unemployment Trends Across Age Groups and Genders (2014-2024).",
     "tags": ["DA","Visualisation"],
     "source_code": "https://github.com/AmirMohammadiKarbalaei/Global_Unemployment"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Top Sellers",
-    "image": "https://imgur.com/BX6C6ke.png",
+    "image": "https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=600&h=400&fit=crop&dpr=1",
     "description": "Analysis of Amazon's Top 50 bestselling books from 2009 to 2019.",
     "tags": ["DA","Visualisation"],
     "source_code": "https://github.com/AmirMohammadiKarbalaei/Top50-Books"

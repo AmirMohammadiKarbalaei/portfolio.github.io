@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Detect Sleep States",
-    "image": "https://i.imgur.com/3zery4d.png",
+    "image": "https://i.imgur.com/mJ558FX.png",
     "description": "Detect sleep onset and wake from wrist-worn accelerometer data to determine a person's sleep state.",
     "tags": ["Time-Series", "Machine-Learning", "Classification","EDA"],
     "source_code": "https://github.com/AmirMohammadiKarbalaei/Detect-Sleep-States-CMI"
@@ -10,42 +10,61 @@
   {
     "id": 2,
     "name": "Diabetes Classification",
-    "image": "https://i.imgur.com/rH7S0M9.png",
+    "image": "https://i.imgur.com/6X4auCk.jpeg",
     "description": "Classify diabetes patient's health status based on their current health metrics.",
     "tags": ["Classification", "EDA", "Machine-Learning"],
-    "source_code": "https://github.com/AmirMohammadiKarbalaei/Pima-Indians-Diabetes"
+    "source_code": "https://github.com/AmirMohammadiKarbalaei/Pima-Indians-Diabetes",
+    "demo": "https://pima-indians-diabetes-k6mzyppban6rqolb5mtrdc.streamlit.app/"
   },
   {
     "id": 3,
-    "name": "Gaming Agents",
-    "image": "https://imgur.com/NtIvxWG.png",
-    "description": "Training a gaming agent for optimal performance in OpenAI Gym environments.",
-    "tags": ["Reinforcement-Learning", "Machine-Learning", "OpenAI-Gym"],
-    "source_code": "https://github.com/AmirMohammadiKarbalaei/Reinforcement-Learning"
+    "name": "DailyLinkAI",
+    "image": "https://media.istockphoto.com/id/929047972/vector/world-news-flat-vector-icon-news-symbol-logo-illustration-business-concept-simple-flat.jpg?s=612x612&w=0&k=20&c=5jpcJ7xejjFa2qKCzeOXKJGeUl7KZi9qoojZj1Kq_po=",
+    "description": "Your Personalised Daily News Recommender.",
+    "tags": ["NLP", "Machine-Learning", "RAG"],
+    "source_code": "https://github.com/AmirMohammadiKarbalaei/DailyLinkai",
+    "demo": "https://dailylinkai.streamlit.app/"
   },
   {
     "id": 4,
-    "name": "Disaster Tweets",
-    "image": "https://imgur.com/dw21deK.png",
-    "description": "Predict which Tweets are about real disasters and which ones are not.",
-    "tags": ["NLP", "Machine-Learning", "BERT???"],
-    "source_code": "https://github.com/AmirMohammadiKarbalaei/kaggle-NLP-Disaster-Tweets"
+    "name": "Fraud Detection",
+    "image": "https://images.spiceworks.com/wp-content/uploads/2021/06/16094651/Fraud-Detection.png",
+    "description": "Detect fraudulent transactions in financial data using machine learning algorithms.",
+    "tags": ["Classification", "Machine-Learning"],
+    "source_code": "https://github.com/AmirMohammadiKarbalaei/FraudDetection"
   },
   {
     "id": 5,
+    "name": "Gaming Agents",
+    "image": "https://blog.paperspace.com/content/images/size/w1050/2020/11/openaigym-1.jpg",
+    "description": "Training a gaming agent for optimal performance in OpenAI Gym environments.",
+    "tags": ["Reinforcement-Learning", "Machine-Learning", "OpenAI-Gym"],
+    "source_code": "https://github.com/AmirMohammadiKarbalaei/Reinforcement-Learning"
+  }
+  ,
+  {
+    "id": 6,
+    "name": "EEG Detection",
+    "image": "https://i.imgur.com/mMhDJXc.jpeg",
+    "description": "Leverage Electroencephalogram data analysis to identify and predict hand movements.",
+    "tags": ["Time-Series", "Machine-Learning", "EEG", "EDA","Classification"],
+    "source_code": "https://github.com/AmirMohammadiKarbalaei/Kaggle-Grasp-and-Lift-EEG-Detection"
+  },
+  {
+    "id": 7,
     "name": "YOLO5",
-    "image": "https://imgur.com/3w7SKLt.png",
+    "image": "https://miro.medium.com/v2/resize:fit:1400/1*WhYiJkSaqJAMEloRIiWHTQ.png",
     "description": "Training YOLO5 on a custom dataset for hand gesture recognition.",
     "tags": ["Computer-Vision", "YOLO5", "OpenCV"],
     "source_code": "https://github.com/AmirMohammadiKarbalaei/YOLO5-Custom-data"
   },
   {
-    "id": 6,
-    "name": "EEG Detection",
-    "image": "https://imgur.com/FcIlWzb.png",
-    "description": "Leverage Electroencephalogram data analysis to identify and predict hand movements.",
-    "tags": ["Time-Series", "Machine-Learning", "EEG", "EDA","Classification"],
-    "source_code": "https://github.com/AmirMohammadiKarbalaei/Kaggle-Grasp-and-Lift-EEG-Detection"
+    "id": 8,
+    "name": "Disaster Tweets",
+    "image": "https://miro.medium.com/v2/resize:fit:640/format:webp/1*iuoT4P9L802xZPg0x1oGgA.jpeg",
+    "description": "Predict which Tweets are about real disasters and which ones are not.",
+    "tags": ["NLP", "Machine-Learning"],
+    "source_code": "https://github.com/AmirMohammadiKarbalaei/kaggle-NLP-Disaster-Tweets"
   }
   
 ]
