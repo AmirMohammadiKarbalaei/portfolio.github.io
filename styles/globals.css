@@ -57,19 +57,100 @@
   background: rgba(124, 182, 237, 0.25);
 }
 
-.Medical-Imaging {
-  border: 0.1rem solid rgb(72, 86, 197);
+.Machine-Learning {
+  border: 0.1rem solid rgb(161, 50, 226);
 }
 
-.Medical-Imaging:hover {
-  background: rgba(72, 86, 197 0.25);
+.Machine-Learning:hover {
+  background: rgb(101, 36, 138);
 }
 
-.SpaCy {
+.DA {
+  border: 0.1rem solid rgb(131, 78, 78);
+}
+
+.DA:hover {
+  background: rgba(107, 67, 67, 0.25);
+}
+
+.Visualisation {
+  border: 0.1rem solid rgb(96, 116, 146);
+}
+
+.Visualisation:hover {
+  background: rgba(97, 94, 138, 0.25);
+}
+
+.NLP {
+  border: 0.1rem solid rgb(148, 129, 129);
+}
+
+.NLP:hover {
+  background: rgba(107, 67, 67, 0.25);
+}
+
+.RAG {
+  border: 0.1rem solid rgb(139, 42, 42);
+}
+
+.RAG:hover {
+  background: rgba(107, 67, 67, 0.25);
+}
+
+.Time-Series {
+  border: 0.1rem solid rgb(145, 180, 136);
+}
+
+.Time-Series:hover {
+  background: rgb(100, 126, 94);
+}
+.Dashboard {
+  border: 0.1rem solid rgb(98, 141, 29);
+}
+
+.Dashboard:hover {
+  background: rgba(165, 175, 77, 0.25);
+}
+
+.EEG {
+  border: 0.1rem solid rgb(177, 221, 105);
+}
+
+.EEG:hover {
+  background: rgba(95, 100, 47, 0.25);
+}
+.YOLO5 {
+  border: 0.1rem solid rgb(105, 221, 192);
+}
+.YOLO5:hover {
+  background: rgba(47, 100, 87, 0.25);
+}
+.Power-BI {
+  border: 0.1rem solid rgb(221, 161, 105);
+}
+.Power-BI:hover {
+  background: rgba(161, 132, 95, 0.25);
+}
+
+.EDA {
+  border: 0.1rem solid rgb(219, 221, 105);
+}
+.EDA:hover {
+  background: rgba(161, 151, 95, 0.25);
+}
+
+.Classification {
+  border: 0.1rem solid rgb(148, 129, 129);
+}
+
+.Classification:hover {
+  background: rgba(107, 67, 67, 0.25);
+}
+.OpenAI-Gym {
   border: 0.1rem solid rgb(0, 0, 0);
 }
 
-.SpaCy:hover {
+.OpenAI-Gym:hover {
   background: rgba(0, 0, 0, 0.25);
 }
 
