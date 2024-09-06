@@ -6,6 +6,7 @@
     "description": "a lightweight neural network library implemented from scratch in Python, without relying on high-level machine learning libraries.",
     "tags": ["PyPi", "Education", "Neural-Network","Simple-Implementation"],
     "source_code": "https://github.com/AmirMohammadiKarbalaei/BareBonesNN",
-    "pypi": "https://pypi.org/project/barebonesnn/"
+    "pypi": "https://pypi.org/project/barebonesnn/",
+    "medium":"https://medium.com/@AmirMohammadikarbalaei/barebonesnn-neural-networks-from-scratch-2f3645ef2c8b"
   }
 ]

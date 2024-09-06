@@ -63,6 +63,16 @@ const ProjectCard = ({ project }) => {
               PyPi
             </a>
           )}
+          {project.medium && (
+            <a
+              href={project.medium}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.underline}
+            >
+              Medium
+            </a>
+          )}
         </div>
       </div>
     </div>
