@@ -73,7 +73,7 @@ export async function getStaticProps() {
     `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?per_page=100`,
     {
       headers: {
-        Authorization: `token ${process.env.GITHUB_API_KEY}`,
+        Authorization: process.env.GITHUB_API_KEY,
       },
     }
   );
@@ -86,16 +86,17 @@ export async function getStaticProps() {
     }
   );
   let repos = await repoRes.json();
+  console.log(repos);
   const additionalRepo = await additionalRepoRes.json();
 
   // Add the specified repo explicitly
   repos.push(additionalRepo);
   repos = repos
     .sort((a, b) => {
-      if (a.html_url.includes('EESTech') || a.html_url.includes('COSC') || a.html_url.includes('/drkostas/drkostas')) {
+      if (a.html_url.includes('EESTech') || a.html_url.includes('COSC') || a.html_url.includes('/AmirMohammadiKarbalaei')) {
         return b
       }
-      if (b.html_url.includes('EESTech') || b.html_url.includes('COSC') || b.html_url.includes('/drkostas/drkostas')) {
+      if (b.html_url.includes('EESTech') || b.html_url.includes('COSC') || b.html_url.includes('/AmirMohammadiKarbalaei')) {
         return a
       }
 
