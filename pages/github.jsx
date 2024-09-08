@@ -77,37 +77,41 @@ export async function getStaticProps() {
       },
     }
   );
-  const additionalRepoRes = await fetch(
-    `https://api.github.com/repos/aicip/Cross-Scale-MAE`,
-    {
-      headers: {
-        Authorization: `token ${process.env.GITHUB_API_KEY}`,
-      },
-    }
-  );
+
   let repos = await repoRes.json();
   console.log(repos);
-  const additionalRepo = await additionalRepoRes.json();
 
   // Add the specified repo explicitly
-  repos.push(additionalRepo);
   repos = repos
-    .sort((a, b) => {
-      if (a.html_url.includes('EESTech') || a.html_url.includes('COSC') || a.html_url.includes('/AmirMohammadiKarbalaei')) {
-        return b
-      }
-      if (b.html_url.includes('EESTech') || b.html_url.includes('COSC') || b.html_url.includes('/AmirMohammadiKarbalaei')) {
-        return a
-      }
+  .sort((a, b) => {
+    // Check for preferred repos to prioritize
+    const preferredRepos = [
+      'Detect-Sleep-States-CMI', 
+      'BareBonesNN',
+      'Kaggle-Grasp-and-Lift-EEG-Detection',
+      'DailyLinkai',
+      'Pima-Indians-Diabetes',
+      'Reinforcement-Learning',
+      'FraudDetection',
+      'YOLO5-Custom-data'
 
-      return (b.stargazers_count + b.watchers_count + b.forks_count) - (a.stargazers_count + a.watchers_count + a.forks_count)
-    })
-    .slice(0, 10);
+    ];
 
-  return {
-    props: { title: 'GitHub', repos, user },
-    revalidate: 30,
-  };
+    const isPreferredA = preferredRepos.some(repo => a.html_url.includes(repo));
+    const isPreferredB = preferredRepos.some(repo => b.html_url.includes(repo));
+
+    if (isPreferredA && !isPreferredB) return -1;
+    if (!isPreferredA && isPreferredB) return 1;
+
+    // Sort by popularity (stars, watchers, forks)
+    return (b.stargazers_count + b.watchers_count + b.forks_count) - (a.stargazers_count + a.watchers_count + a.forks_count);
+  })
+  .slice(0, 8);  // Increase the number of repos here
+
+return {
+  props: { title: 'GitHub', repos, user },
+  revalidate: 30,
+};
 }
 
 export default GithubPage;
