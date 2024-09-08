@@ -13,7 +13,7 @@ export default function HomePage() {
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Amir mhd</h1>
+            <h1 className={styles.name}>Amir Mohammadi K</h1>
             <h6 className={styles.bio}>Data Scientist</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
@@ -21,19 +21,19 @@ export default function HomePage() {
                   <h4>Skill Set</h4>
                   <div className={styles.tags}>
                     <span key='Computer-Vision' className='Computer-Vision'>
-                      Machine Learning
+                      Machine-Learning
                     </span>
                     <span key='LLMs' className='LLMs'>
                       LLMs
                     </span>
                     <span key='GenAI' className='GenAI'>
-                      Generative AI
+                      Gen-AI
                     </span>
                     <span key='PyTorch' className='PyTorch'>
-                      PyTorch
+                    NLP
                     </span>
-                    <span key='Tensorflow' className='Tensorflow'>
-                      Tensorflow
+                    <span key='Deep-Learning' className='Deep-Learning'>
+                    Deep-Learning
                     </span>
                     <span key='SQL' className='SQL'>
                       SQL
@@ -41,22 +41,36 @@ export default function HomePage() {
                     <span key='Software-Design' className='Software-Design'>
                       Python
                     </span>
-                    <span key='Bots' className='Bots'>
-                      Data Analysis
+                    <span key='Power-BI' className='Power-BI'>
+                    Power-BI
                     </span>
+                    <span key='RAG' className='RAG'>
+                    Tableau
+                    </span>
+                    <span key='DA' className='DA'>
+                    Statistical-Analysis
+                    </span>
+                    
                   </div>
                 </div>
               </div>
             </div>
+            <div className={styles.buttonContainer}>
+
             <Link href="/resume">
               <button className={styles.button}>Resume</button>
             </Link>
-            {/* <Link href="/projects">
-              <button className={styles.button}>View Projects</button>
-            </Link> */}
+            
             <Link href="/contact">
               <button className={styles.outlined}>Contact</button>
             </Link>
+            
+            <Link href="/projects">
+              <button className={styles.button}> Projects</button>
+            </Link>
+
+            </div>
+            
           </div>
           {/* <Illustration className={styles.illustration} /> */}
           <div className={styles.right}>
