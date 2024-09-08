@@ -2,7 +2,7 @@
 
 A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
 
-![vscode-portfolio banner](https://i.imgur.com/3fVr5uh.png)
+![vscode-portfolio banner](https://i.imgur.com/qXy7fm6.png)
 
 ## Environment Variables
 
